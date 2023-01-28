@@ -1,0 +1,92 @@
+
+body{
+   color: red;
+    background-color: blue;
+    text-align: center;
+    max-width: 100%;
+    overflow-x:hidden ;
+    padding: 0;
+    margin: 0;
+}
+
+
+  .hamburger {
+   position: absolute;
+   top: 90px;
+   left: 1%;
+   margin-left: 30px;
+   margin-top: -45px;
+   width: 2em;
+   height: 45px;
+   z-index: 5;
+    .menubar{
+        width: 50px;
+        height: 7px;
+        position: relative; 
+        border-radius: 3px;
+        background-color: red;
+        margin-top: 8px;
+        transition: all 0.3s ease-in-out;
+    
+    
+    
+    
+    .menu-top {
+        width: 30px;
+        border: 5px solid red;
+    }
+    .menubar.menu-center {
+        width: 30px;
+    border: 5px solid red;
+    }
+    .menubar.menu-bottom {
+        width: 30px;
+    border: 5px solid red;
+    }
+  }
+  .menubar-color{
+    background-color: yellow;
+
+  }
+}
+.menu-conta {
+    width: 558px;
+    height: 545px;
+    position: fixed;
+    background: radial-gradient( #000ba2, #161442);
+    left: -100%;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+    transform: translate(-254px, -108px);
+
+    .listx {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        overflow-y: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        .menu-list {
+            text-align: center;
+            margin-left: 17%;
+            display: flex;
+            flex-direction: column;
+            .menu-text {
+                font-size: 20px;
+                text-decoration: none;
+                color: #6ecddd;
+                margin-top: 20px;
+                display: inline-block;
+                letter-spacing: 1px;
+                &:hover {
+                    color: white;
+                }
+
+            }
+        }
+    }
+}
